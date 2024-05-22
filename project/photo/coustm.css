@@ -1,0 +1,45 @@
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("banner11.jpg");
+    background-size: cover;
+    background-position: top;
+    padding: 50px;
+    padding-bottom: 100px; 
+    clip-path: polygon(100% 0%, 100% 100%, 0% 80%, 0% 100%, 0% 0%);
+    
+    /* transition: .5s; */
+}
+/* #contact-section{
+    display: none;
+} */
+header>nav{
+    background-color: rgba(252, 252, 252, 0.5);
+    border-radius: 10px;
+}
+.navbar-brand{
+    transition: 1s;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+header>div span{
+    font-size: 40px;
+    color: rgb(217, 255, 0);
+    font-weight: bold;
+    padding: 10px 0;
+}
+#projects img{
+    transition: 1s;
+}
+#projects img:hover{
+    transform: scale(0.8);
+}
+.carousel-item img{
+    filter: brightness(.5);
+}
+
+#top-button{
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
